@@ -1,0 +1,43 @@
+table{
+    border-collapse: collapse;
+    font-family: 12px Sans-Serif;
+    color: #333333;
+}
+table th {
+    background: #0400f0;
+    color: #dcdcdc;
+    font-weight: bold;
+    font-size: 14px;
+
+
+ }
+ table, th, td {
+     vertical-align: top;
+     padding: 5px 10px;
+     border: 1px solid #696969;
+ }
+table tr{
+    background: #f5fffa;
+
+}
+table tr:nth-child(even) {
+    background: #f0f8ff;
+}
+form label{
+    display: inline-block;
+    width: 100px;
+}
+form input[type="submit"] {
+    display: inline-block;
+    border: 1px solid #194a4a;
+    background-color: #0fc224;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 5px 10px;
+    position: relative;
+
+
+}
+form input[type="text"] {
+    border: 1px solid #197143;
+}
